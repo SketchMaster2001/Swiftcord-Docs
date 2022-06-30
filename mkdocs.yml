@@ -1,1 +1,6 @@
 site_name: Swiftcord Documentation
+site_url: https://www.swiftcord.com/documentation
+
+nav:
+  - Home: index.md
+  - About: about.md
