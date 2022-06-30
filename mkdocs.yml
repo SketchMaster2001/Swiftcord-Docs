@@ -33,4 +33,7 @@ theme:
         name: Switch to light mode
       primary: deep orange
       accent: amber
+  features:
+    - navigation.instant
+    - navigation.top
     
