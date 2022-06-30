@@ -38,6 +38,9 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+  highlightjs: true
+  hljs_languages:
+    - swift
 
 # Socials
 extra:
@@ -49,4 +52,12 @@ extra:
 
 # Copyright
 copyright: Copyright &copy; Swiftcord community
+
+# Extensions
+markdown_extensions:
+  # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types
+  - admonition
+  - meta
+  - toc:
+      permalink: true
     
