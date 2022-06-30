@@ -21,3 +21,6 @@ struct thisIsAtest {
 }
 
 ```
+
+!!! info
+    This is an example of info text
