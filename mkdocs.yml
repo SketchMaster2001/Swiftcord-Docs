@@ -36,4 +36,17 @@ theme:
   features:
     - navigation.instant
     - navigation.top
+    - search.suggest
+    - search.highlight
+
+# Socials
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/cE2Cpn4r9X
+    - icon: fontawesome/brands/github
+      link: https://github.com/SketchMaster2001/Swiftcord
+
+# Copyright
+copyright: Copyright &copy; Swiftcord community
     
