@@ -4,3 +4,6 @@ site_url: https://www.swiftcord.com/documentation
 nav:
   - Home: index.md
   - About: about.md
+
+theme:
+  name: material
