@@ -1,13 +1,23 @@
 site_name: Swiftcord Documentation
 site_url: https://www.swiftcord.com/documentation
-
-nav:
-  - Home: index.md
-  - About: about.md
+site_author: Swiftcord Community
+site_description: Swiftcord documentation (API library for discord written in Swift).
 
 # Repository
 repo_name: Swiftcord Github
 repo_url: https://github.com/SketchMaster2001/Swiftcord
+
+# Navigation
+nav:
+  - Home: index.md
+  - About: about.md
+  - Getting Started:
+    - New Project: getting-started/new-project.md
+    - Connect the bot: getting-started/connect-to-discord.md
+  - Basics:
+    - Slash Commands: basics/slash-commands.md
+    - Buttons: basics/buttons.md
+    - Select Menus: basics/select-menu.md
 
 # Configuration
 theme:
@@ -38,9 +48,6 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
-  highlightjs: true
-  hljs_languages:
-    - swift
 
 # Socials
 extra:
@@ -60,4 +67,10 @@ markdown_extensions:
   - meta
   - toc:
       permalink: true
+
+extra_javascript:
+  - javascripts/syntax.js
+
+extra_css:
+  - stylesheets/syntax.css
     
