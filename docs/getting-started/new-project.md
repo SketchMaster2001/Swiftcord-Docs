@@ -2,7 +2,7 @@
 
 This guide will take you through the steps for creation a Discord Bot with Swiftcord. 
 
-If you have not yet installed Swift, then be sure to do so first.
+If you have not yet installed Swift, then be sure to do so first. More information on installing Swift can be found here on [Swift.org](https://www.swift.org/getting-started/#installing-swift).
 
 ## New Project
 
