@@ -5,5 +5,32 @@ nav:
   - Home: index.md
   - About: about.md
 
+# Repository
+repo_name: Swiftcord Github
+repo_url: https://github.com/SketchMaster2001/Swiftcord
+
+# Configuration
 theme:
+  language: en
   name: material
+  logo: assets/logo2.png
+  favicon: assets/favicon.ico
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+      primary: deep orange
+      accent: amber
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+      primary: deep orange
+      accent: amber
+    
