@@ -44,7 +44,6 @@ theme:
       primary: deep orange
       accent: amber
   features:
-    - navigation.instant
     - navigation.top
     - search.suggest
     - search.highlight
